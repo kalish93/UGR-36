@@ -30,7 +30,11 @@ nav ul{
     
 
 }
-
+main img{
+    display: flex;
+    flex-direction: raw;
+    justify-content: center;
+}
 
 footer{
     background-color: #37474f;
