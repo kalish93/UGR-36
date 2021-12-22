@@ -97,3 +97,15 @@ main table tr td{
     }
     
 }
+@media screen and (max-width: 500px){
+    body{
+        font-family: Verdana, sans-serif;
+        color: #3d2b1f;
+    }
+    .text h1{
+        text-shadow: 1.5px 1.5px grey;
+    }
+    .text h2{
+        font-weight: lighter;
+    }
+}

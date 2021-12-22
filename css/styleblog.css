@@ -42,19 +42,21 @@ nav ul{
     justify-content: flex-start;
 }
 
-.blog1 img{
+.blog1 .blog1-photo img{
     margin: 0 30px 30px 0;
+    border-radius: 20px;
 }
-.blog2 img{
+.blog2 .blog2-photo img{
     margin-right: 30px;
+    border-radius: 20px;
 }
-.description1{
+.blog1-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.description2{
+.blog2-description{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,5 +101,17 @@ footer{
     }
     body{
         font-family: sans-serif;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        font-family: Verdana, sans-serif;
+        color: #3d2b1f;
+    }
+    .text h1{
+        text-shadow: 1.5px 1.5px grey;
+    }
+    .text h2{
+        font-weight: lighter;
     }
 }

@@ -1,10 +1,8 @@
 body{
     margin: 0;
     font-family: cursive;
-    /*background-color: #c5cae9;*/
-    background-image: url(../image/tenor.gif) repeat-y 100% 100% fixed;
-    height:100%;
-    width:100%;
+    background-color: #c5cae9;
+    
 }
 header{
     padding: 25px 45px;
@@ -36,7 +34,7 @@ nav ul{
 
 
 main{
-
+    background-color: #c5cae9;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -45,7 +43,6 @@ main{
     
 }
 .text{
-    font-family: cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,4 +73,16 @@ footer{
         
     }
     
+}
+@media screen and (max-width: 500px){
+    body{
+        font-family: Verdana, sans-serif;
+        color: #3d2b1f;
+    }
+    .text h1{
+        text-shadow: 1.5px 1.5px grey;
+    }
+    .text h2{
+        font-weight: lighter;
+    }
 }

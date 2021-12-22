@@ -1,8 +1,7 @@
 body{
     margin: 0;
     font-family: cursive;
-    /*background-color: #c5cae9;*/
-    background-image: url(../image/tenor.gif) repeat-y 100% 100% fixed;
+    background-color: #c5cae9;
 }
 header{
     padding: 30px 45px;
@@ -81,4 +80,16 @@ main h1{
         grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
     }
     
+}
+@media screen and (max-width: 500px){
+    body{
+        font-family: Verdana, sans-serif;
+        color: #3d2b1f;
+    }
+    .text h1{
+        text-shadow: 1.5px 1.5px grey;
+    }
+    .text h2{
+        font-weight: lighter;
+    }
 }
