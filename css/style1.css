@@ -2,7 +2,7 @@ body{
     margin: 0;
     font-family: cursive;
     /*background-color: #c5cae9;*/
-    background-image: url('../image/tenor.gif') repeat-y 100% 100% fixed;
+0    background-image: url('../image/tenor.gif') repeat-y 100% 100% fixed;
     height:100%;
     width:100%;
 }
@@ -36,7 +36,7 @@ nav ul{
 
 
 main{
-    background-color: #c5cae9;
+
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
