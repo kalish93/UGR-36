@@ -41,6 +41,13 @@ footer{
     align-items: center;
     color: #fff;
 }
+footer .socials a img{
+    border-radius: 100px;
+
+}
+footer .socials a{
+    padding-left: 20px;
+}
 main{
    
     padding: 0;
@@ -93,5 +100,10 @@ main h1{
     }
     .text h2{
         font-weight: lighter;
+    }
+}
+@media screen and (max-width: 700px){
+    footer .socials{
+        display: none;
     }
 }

@@ -41,6 +41,13 @@ footer{
     align-items: center;
     color: #fff;
 }
+footer .socials a img{
+    border-radius: 100px;
+
+}
+footer .socials a{
+    padding-left: 20px;
+}
 .intro{
     padding-top: 60px;
     display: flex;
@@ -107,5 +114,10 @@ main table tr td{
     }
     .text h2{
         font-weight: lighter;
+    }
+}
+@media screen and (max-width: 700px){
+    footer .socials{
+        display: none;
     }
 }
