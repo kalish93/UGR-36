@@ -1,7 +1,8 @@
 body{
     margin: 0;
     font-family: cursive;
-    background-color: #c5cae9;
+    /*background-color: #c5cae9;*/
+    background-image: url(../image/tenor.gif) repeat-y 100% 100% fixed;
 }
 header{
     padding: 30px 45px;
